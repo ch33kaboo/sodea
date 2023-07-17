@@ -1,46 +1,55 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-const images = [
-  "/heroSectionAssets/slide-culture-eau.jpg",
-  "/heroSectionAssets/slide-fertilisants.jpg",
-  "/heroSectionAssets/slide-machinisme-agricole.jpg",
-  "/heroSectionAssets/slide-prestations-agricoles.jpg",
-  "/heroSectionAssets/slide-production-plants.jpg",
-  "/heroSectionAssets/slide-travaux-hydrauliques-environnement.jpg",
-];
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 export default function HeroImages() {
-  const [imageIndex, setImageIndex] = useState(0);
-  const [topImageOpacity, setTopImageOpacity] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTopImageOpacity(1);
-    }, 7000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleTransitionEnd = () => {
-    setImageIndex((prevImageIndex) => (prevImageIndex + 1) % images.length);
-    setTopImageOpacity(0);
-  };
-
   return (
     <div className="w-full relative">
       <img
-        className="absolute inset-0 w-full h-full object-cover"
-        src={images[(imageIndex + 1) % images.length]}
-        alt="culture-eau"
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
         style={{
-          width: "100%",
-          position: "absolute",
-          opacity: topImageOpacity,
-          transition: "opacity 1s ease-in-out",
+          animationDelay: "35s",
         }}
-        onTransitionEnd={handleTransitionEnd}
+        src={"/heroSectionAssets/slide-culture-eau.jpg"}
+        alt="culture-eau"
+      />
+      <img
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
+        style={{
+          animationDelay: "28s",
+        }}
+        src={"/heroSectionAssets/slide-fertilisants.jpg"}
+        alt="fertilisants"
+      />
+      <img
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
+        style={{
+          animationDelay: "21s",
+        }}
+        src={"/heroSectionAssets/slide-machinisme-agricole.jpg"}
+        alt="machinisme-agricole"
+      />
+      <img
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
+        style={{
+          animationDelay: "14s",
+        }}
+        src={"/heroSectionAssets/slide-prestations-agricoles.jpg"}
+        alt="prestations-agricoles"
+      />
+      <img
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
+        style={{
+          animationDelay: "7s",
+        }}
+        src={"/heroSectionAssets/slide-production-plants.jpg"}
+        alt="production-plants"
+      />
+      <img
+        className="absolute inset-0 w-full h-full object-cover animate-fade"
+        src={"/heroSectionAssets/slide-travaux-hydrauliques-environnement.jpg"}
+        alt="travaux-hydrauliques-environnement"
       />
     </div>
   );

@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero";
-import Sectors from "@/components/Sectors";
+import Hero from "@/components/landing/hero/Hero";
+import Sectors from "@/components/landing/Sectors";
 
 export default function Home() {
   return (

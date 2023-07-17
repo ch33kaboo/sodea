@@ -31,7 +31,10 @@ const Hero = () => {
   return (
     <div className="md:h-screen flex flex-col md:flex-row w-full">
       <div className="bg-gray-100 w-7/12 flex flex-col p-7 items-start justify-center gap-3">
-        <h1 className="text-4xl font-medium">Prestations Agricoles</h1>
+        <p className="-mb-4 ml-[2px]">SODEA</p>
+        <h1 className="text-7xl font-bold font-poppins">
+          Prestations Agricoles
+        </h1>
         <p className="opacity-75">
           Analyse, Prestation, Travaux de sol & Conseils techniques.
         </p>

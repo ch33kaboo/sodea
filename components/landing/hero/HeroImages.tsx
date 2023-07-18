@@ -28,7 +28,7 @@ export default function HeroImages() {
           animationDelay: "21s",
         }}
         src={"/heroSectionAssets/slide-machinisme-agricole.jpg"}
-        alt="machinisme-agricole"
+        alt="machinisme-agricoles"
       />
       <img
         className="absolute inset-0 w-full h-full object-cover animate-fade"

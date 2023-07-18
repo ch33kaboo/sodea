@@ -13,9 +13,9 @@ module.exports = {
       keyframes: {
         fade: {
           "0%": { opacity: 1 },
-          "19%": { opacity: 1 },
-          "22%": { opacity: 0 },
-          "94%": { opacity: 0 },
+          "20%": { opacity: 1 },
+          "21.5%": { opacity: 0 },
+          "98.5%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
       },

@@ -12,11 +12,11 @@ module.exports = {
       },
       keyframes: {
         fade: {
-          "0%": { opacity: 1 },
-          "20%": { opacity: 1 },
-          "21.5%": { opacity: 0 },
-          "98.5%": { opacity: 0 },
-          "100%": { opacity: 1 },
+          "0%": { opacity: 1, display: "flex", "z-index": 3 },
+          "20%": { opacity: 1, display: "flex", "z-index": 19 },
+          "98.5%": { opacity: 0, display: "none", "z-index": 2 },
+          "21.5%": { opacity: 0, display: "none", "z-index": 2 },
+          "100%": { opacity: 1, display: "flex", "z-index": 3 },
         },
       },
 

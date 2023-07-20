@@ -1,9 +1,11 @@
 import Hero from "@/components/landing/hero/Hero";
 import Sectors from "@/components/landing/Sectors";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-start">
+    <main className="flex flex-col items-center justify-start relative">
+      <Navbar></Navbar>
       <Hero></Hero>
       <Sectors></Sectors>
     </main>

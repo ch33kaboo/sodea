@@ -4,7 +4,7 @@ export default function HeroText() {
   return (
     <div className="w-7/12 relative text-gray-900">
       <div
-        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
+        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20"
         style={{
           animationDelay: "35s",
         }}
@@ -22,7 +22,7 @@ export default function HeroText() {
         </button>
       </div>
       <div
-        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
+        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20"
         style={{
           animationDelay: "28s",
         }}
@@ -35,7 +35,7 @@ export default function HeroText() {
         </button>
       </div>
       <div
-        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
+        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20"
         style={{
           animationDelay: "21s",
         }}
@@ -52,7 +52,7 @@ export default function HeroText() {
         </button>
       </div>
       <div
-        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
+        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20"
         style={{
           animationDelay: "14s",
         }}
@@ -69,7 +69,7 @@ export default function HeroText() {
         </button>
       </div>
       <div
-        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
+        className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20"
         style={{
           animationDelay: "7s",
         }}
@@ -85,7 +85,7 @@ export default function HeroText() {
           En Savoir plus
         </button>
       </div>
-      <div className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade">
+      <div className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade md:pt-20">
         <p className="-mb-4 ml-[2px]">SODEA</p>
         <h1 className="text-5xl font-bold font-poppins">
           Travaux <br />

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroText() {
   return (
-    <div className="w-7/12 relative">
+    <div className="w-7/12 relative text-gray-900">
       <div
         className="bg-gray-100 flex flex-col p-7 items-start justify-center gap-3 absolute inset-0 animate-fade"
         style={{

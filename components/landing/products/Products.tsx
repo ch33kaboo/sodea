@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Tab, initTE } from "tw-elements";
@@ -62,7 +63,104 @@ const MyTabs = () => {
           aria-labelledby="tabs-home-tab01"
           data-te-tab-active
         >
-          Tab 1 content
+          <div className="w-full grid grid-cols-3">
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div
           className="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
@@ -70,7 +168,104 @@ const MyTabs = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tab01"
         >
-          Tab 2 content
+          <div className="w-full grid grid-cols-3">
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div
           className="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
@@ -78,7 +273,104 @@ const MyTabs = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tab01"
         >
-          Tab 3 content
+          <div className="w-full grid grid-cols-3">
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div className="card w-96 bg-base-100 bg-opacity-20 text-gray-950 shadow-xl my-3">
+              <figure>
+                <img
+                  className="object-cover w-full h-56"
+                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  alt="Product"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

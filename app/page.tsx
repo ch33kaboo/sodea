@@ -1,9 +1,9 @@
 import Hero from "@/components/landing/hero/Hero";
-import Partners from "@/components/landing/partners/Partners";
+// import Partners from "@/components/landing/partners/Partners";
 import Products from "@/components/landing/products/Products";
 import Sectors from "@/components/landing/Sectors";
 import Navbar from "@/components/Navbar";
-import "tw-elements/dist/css/tw-elements.min.css";
+// import "tw-elements/dist/css/tw-elements.min.css";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero></Hero>
       <Sectors></Sectors>
       <Products></Products>
-      <Partners></Partners>
+      {/* <Partners></Partners> */}
     </main>
     //   <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //     <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">

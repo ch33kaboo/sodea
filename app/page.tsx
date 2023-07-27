@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/landing/hero/Hero";
 // import Partners from "@/components/landing/partners/Partners";
 import Products from "@/components/landing/products/Products";
@@ -7,12 +8,13 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-start relative">
+    <main className="flex flex-col items-center justify-start relative font-sans">
       <Navbar></Navbar>
       <Hero></Hero>
       <Sectors></Sectors>
       <Products></Products>
       {/* <Partners></Partners> */}
+      <Footer></Footer>
     </main>
     //   <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //     <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/landing/hero/Hero";
-// import Partners from "@/components/landing/partners/Partners";
+import Partners from "@/components/landing/partners/Partners";
 import Products from "@/components/landing/products/Products";
 import Sectors from "@/components/landing/Sectors";
 import Navbar from "@/components/Navbar";
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero></Hero>
       <Sectors></Sectors>
       <Products></Products>
-      {/* <Partners></Partners> */}
+      <Partners></Partners>
       <Footer></Footer>
     </main>
     //   <main className="flex min-h-screen flex-col items-center justify-between p-24">

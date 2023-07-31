@@ -9,7 +9,7 @@ type LayoutProps = {
 
 export default function Layout({ children }: LayoutProps) {
     return (
-        <main className="flex flex-col items-center justify-start relative font-sans min-h-screen">
+        <main className="flex flex-col items-center justify-start relative font-sans min-h-screen bg-gray-100">
             <Navbar />
             {children}
             <Footer />

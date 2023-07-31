@@ -67,7 +67,7 @@ export default function Navbar() {
                     <img
                         src="/logo-sodea.png"
                         alt="sodea logo"
-                        className="h-14"
+                        className="h-14 bg-opacity-70"
                     />
                 </div>
                 <div className="hidden lg:flex">

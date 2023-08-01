@@ -18,6 +18,11 @@ const productSchema = {
             type: "image",
             title: "Image",
         },
+        {
+            name: "description",
+            type: "string",
+            title: "Description",
+        },
     ],
 };
 

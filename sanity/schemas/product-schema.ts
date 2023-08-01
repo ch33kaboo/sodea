@@ -12,6 +12,13 @@ const productSchema = {
             name: "type",
             type: "string",
             title: "Type",
+            options: {
+                list: [
+                    { title: "Type 1", value: "type1" },
+                    { title: "Type 2", value: "type2" },
+                    { title: "Type 3", value: "type3" },
+                ],
+            },
         },
         {
             name: "image",

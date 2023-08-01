@@ -10,7 +10,7 @@ export async function getProducts() {
     });
 
     return client.fetch(
-        groq`*[_type == "productSchema"]{
+        groq`*[_type == "product"]{
             _id,
             _createdAt,
             name,

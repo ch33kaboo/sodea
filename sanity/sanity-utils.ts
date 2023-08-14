@@ -19,3 +19,29 @@ export async function getProducts() {
         }`
     );
 }
+
+export async function getAboutContent() {
+    const client = createClient({
+        projectId: "hv3vqbgi",
+        dataset: "production",
+        apiVersion: "2023-07-11",
+    });
+
+    return client.fetch(
+        groq`*[_type == "about"]{
+            description_header,
+            first_section{
+                first_sub_paragraphe,
+                second_sub_paragraphe,
+                third_sub_paragraphe,
+                "imageUrl": image.asset->url
+            },
+            second_section{
+                first_sub_paragraphe,
+                second_sub_paragraphe,
+                third_sub_paragraphe,
+                "imageUrl": image.asset->url
+            }
+        }`
+    );
+}

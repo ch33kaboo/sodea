@@ -1,10 +1,19 @@
+/* eslint-disable @next/next/no-async-client-component */
+"use client";
 /* eslint-disable @next/next/no-img-element */
+import { getAboutContent } from "@/sanity/sanity-utils";
 import React from "react";
 
-export default function AboutContent() {
+export default async function AboutContent() {
+    let about = await getAboutContent();
     return (
         <div className="w-full flex flex-col gap-28 px-[160px] my-28">
-            <p className="text-center text-gray-950 font-semibold">
+            <p
+                className="text-center text-gray-950 font-semibold"
+                onClick={() => {
+                    console.log(about[0]);
+                }}
+            >
                 Le Groupe Des Sociétés HASNAOUI N’a Cessé Depuis Sa Création De
                 Relever Le Pari De L’intégration Industrielle Avec Comme Slogan
                 « Construire Algérien ».
